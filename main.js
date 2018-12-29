@@ -1,5 +1,3 @@
-var unique = require('uniq');
-
-var data = [1, 2, 2, 3, 4, 5, 5, 5, 6];
-
-console.log(unique(data));
+var uniq = require('uniq');
+var nums = [2, 5, 1, 3, 6, 7, 9];
+console.log(uniq(nums));
